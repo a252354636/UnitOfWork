@@ -1,0 +1,12 @@
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\bin\Debug\EFFramework.dll.config
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\bin\Debug\EFFramework.dll
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\bin\Debug\EFFramework.pdb
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\bin\Debug\EntityFramework.dll
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\bin\Debug\Models.dll
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\bin\Debug\Models.pdb
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\bin\Debug\EntityFramework.xml
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\obj\Debug\EFFramework.csprojResolveAssemblyReference.cache
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\obj\Debug\EFFramework.dll
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\EFFramework\obj\Debug\EFFramework.pdb

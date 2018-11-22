@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UnitOfWork
+{
+    public class Repository<T> : BaseEntity
+    {
+        private UnitOfWork uw;
+        private IDbSet<T> entities;
+        public Repository(UnitOfWork context)
+        {
+            this.uw = context;
+        }
+        public void Add(T entity)
+        {
+            entities.Add(entity);
+            this.uw.SaveChanges();
+        }
+        public void Update(T entity)
+        {
+            this.uw.SaveChanges();
+        }
+    }
+}

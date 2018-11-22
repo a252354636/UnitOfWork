@@ -1,0 +1,40 @@
+﻿using Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+using UnitOfWork;
+
+namespace MvcApp.Controllers
+{
+    public class BookController : Controller
+    {
+        UnitOfWork.UnitOfWork uw = new UnitOfWork.UnitOfWork();
+        public BookController()
+        {
+        }
+
+
+        //
+        // GET: /Book/
+
+        public ActionResult Index()
+        {
+            Book b = new Book();
+            b.ID = 7;
+            b.Name = "天书奇谈";
+            Users u = new Users();
+            u.ID = 1;
+            u.Name = "周杰伦"+DateTime.Now;
+            uw.Add(b);
+            uw.Commit();
+           //book.Name = "天天向上";
+            //List<UserOnBookModel> bk = uw.GetSqlQuery<UserOnBookModel>("select b.ID bookid,b.Name BookName,u.Name UserName from books b join Users u on u.id = b.Uid ");
+
+           // return Content(bk[0].BookName);
+            return Content("");
+        }
+
+    }
+}

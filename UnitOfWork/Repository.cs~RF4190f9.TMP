@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UnitOfWork
+{
+    public class Repository<T> where T : BaseEntity
+    {
+        private BaseDbContext uw;
+        private IDbSet<T> entities;
+
+        private IDbSet<T> Entities
+        {
+            get
+            {
+                if (entities == null)
+                {
+                    entities = uw.Set<T>();
+                }
+                return entities;
+            }
+        }
+        public Repository(BaseDbContext context)
+        {
+            this.uw = context;
+        }
+        public void Add(T entity)
+        {
+            this.Entities.Add(entity);
+            this.uw.SaveChanges();
+        }
+        public void Update(T entity)
+        {
+            this.uw.SaveChanges();
+        }
+        public T GetModel(Expression<Func<T, bool>> filter)
+        {
+           return this.Entities.FirstOrDefault(filter);
+        }
+    }
+}

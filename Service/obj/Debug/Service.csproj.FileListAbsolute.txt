@@ -1,0 +1,11 @@
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\bin\Debug\Service.dll
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\bin\Debug\Service.pdb
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\bin\Debug\EFFramework.dll
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\bin\Debug\Models.dll
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\bin\Debug\EntityFramework.dll
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\bin\Debug\EFFramework.pdb
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\bin\Debug\Models.pdb
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\bin\Debug\EntityFramework.xml
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\obj\Debug\Service.dll
+C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\obj\Debug\Service.pdb

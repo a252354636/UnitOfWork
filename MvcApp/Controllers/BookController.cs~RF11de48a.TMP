@@ -1,0 +1,39 @@
+﻿using Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+using UnitOfWork;
+
+namespace MvcApp.Controllers
+{
+    public class BookController : Controller
+    {
+        UnitOfWork.UnitOfWork uw = new UnitOfWork.UnitOfWork();
+        private Repository<Book> bookRepository;
+        public BookController()
+        {
+            bookRepository = uw.Repository<Book>();
+        }
+
+
+        //
+        // GET: /Book/
+
+        public ActionResult Index()
+        {
+            Book b = new Book();
+            b.ID = 1;
+            b.Name = "天书";
+           // bookRepository.Add(b);
+            b.Name = "奇谈";
+          //  bookRepository.Update(b);
+           Book book = bookRepository.GetModel(s=>s.ID==1);
+           book.Name = "天天向上";
+           bookRepository.Update(book);
+            return View();
+        }
+
+    }
+}
