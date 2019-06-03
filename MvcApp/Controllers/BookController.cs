@@ -1,4 +1,5 @@
-﻿using Models;
+﻿using EFFramework;
+using Models;
 using Service;
 using System;
 using System.Collections.Generic;
@@ -8,35 +9,36 @@ using System.Web.Mvc;
 
 namespace MvcApp.Controllers
 {
-    public class BookController : Controller
+  public class BookController : Controller
+  {
+    BooksOrUsersService service = new BooksOrUsersService();
+    public BookController()
     {
-        IBaseService service = new BaseService();
-        public BookController()
-        {
-        }
-
-
-        //
-        // GET: /Book/
-
-        public ActionResult Index()
-        {
-            Book b = new Book();
-            b.ID = 7;
-            b.Name = "天书奇谈" + DateTime.Now;
-            Users u = new Users();
-            u.ID = 1;
-            u.Name = "周杰伦"+DateTime.Now;
-            service.Add(b);
-            service.Add(u);
-            service.Commit();
-            service.GetModel<Book>(s => s.ID == 1);
-           //book.Name = "天天向上";
-            List<UserOnBookModel> bk = service.GetSqlQuery<UserOnBookModel>();
-
-           return Content(bk[0].BookName);
-           // return Content("");
-        }
-
     }
+
+
+    //
+    // GET: /Book/
+
+    public ActionResult Index()
+    {
+      Book b = new Book();
+      b.ID = 7;
+      b.Uid = 1;
+      b.Name = "天书奇谈" + DateTime.Now;
+      Users u = new Users();
+      u.ID = 1;
+      u.Name = "周杰伦" + DateTime.Now;
+      service.Add(b);
+      service.Add(u);
+      service.Commit();
+      service.GetModel<Book>(s => s.ID == 1);
+      //book.Name = "天天向上";
+      List<UserOnBookModel> bk = service.GetSqlQuery<UserOnBookModel>();
+
+      return Content(bk[0].BookName);
+      // return Content("");
+    }
+
+  }
 }

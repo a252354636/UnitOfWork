@@ -9,19 +9,20 @@ using System.Threading.Tasks;
 
 namespace EFFramework
 {
-    public class BookEntityTypeConfiguration : EntityTypeConfiguration<Book>
+  public class BookEntityTypeConfiguration : EntityTypeConfiguration<Book>
+  {
+    public BookEntityTypeConfiguration()
     {
-        public BookEntityTypeConfiguration()
-        {
-            //配置主键
-            HasKey(s => s.ID);
+      //配置主键
+      HasKey(s => s.ID);
 
-            //配置列
-            Property(s => s.ID).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
-            Property(p => p.Name).IsRequired();
-            //配置表名称
-            ToTable("Books");
+      //配置列
+      Property(s => s.ID).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+      Property(s => s.Uid).IsRequired();
+      Property(p => p.Name).IsRequired();
+      //配置表名称
+      ToTable("Books");
 
-        }
     }
+  }
 }
