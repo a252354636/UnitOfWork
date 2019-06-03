@@ -13,9 +13,9 @@ namespace EFFramework
     {
         public UsersEntityTypeConfiguration()
         {
-            HasKey(s => s.ID);
-            Property(s => s.ID).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
-            Property(s => s.Name).IsOptional();
+            HasKey(s => s.id);
+            Property(s => s.id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            Property(s => s.user_name).IsOptional();
             ToTable("Users");
         }
     }

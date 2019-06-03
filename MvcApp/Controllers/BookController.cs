@@ -27,8 +27,8 @@ namespace MvcApp.Controllers
       b.Uid = 1;
       b.Name = "天书奇谈" + DateTime.Now;
       Users u = new Users();
-      u.ID = 1;
-      u.Name = "周杰伦" + DateTime.Now;
+      u.id = 1;
+      u.user_name = "周杰伦" + DateTime.Now;
       service.Add(b);
       service.Add(u);
       service.Commit();

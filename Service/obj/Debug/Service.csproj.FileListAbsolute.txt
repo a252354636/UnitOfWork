@@ -9,6 +9,7 @@ C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\bin\Deb
 C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\bin\Debug\EntityFramework.xml
 C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\obj\Debug\Service.dll
 C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Service\obj\Debug\Service.pdb
+E:\code\UnitOfWork\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
 E:\code\UnitOfWork\Service\bin\Debug\Service.dll
 E:\code\UnitOfWork\Service\bin\Debug\Service.pdb
 E:\code\UnitOfWork\Service\bin\Debug\EFFramework.dll
@@ -19,7 +20,6 @@ E:\code\UnitOfWork\Service\bin\Debug\EFFramework.dll.config
 E:\code\UnitOfWork\Service\bin\Debug\Models.pdb
 E:\code\UnitOfWork\Service\bin\Debug\EntityFramework.xml
 E:\code\UnitOfWork\Service\obj\Debug\Service.csprojAssemblyReference.cache
-E:\code\UnitOfWork\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
 E:\code\UnitOfWork\Service\obj\Debug\Service.csproj.CopyComplete
 E:\code\UnitOfWork\Service\obj\Debug\Service.dll
 E:\code\UnitOfWork\Service\obj\Debug\Service.pdb

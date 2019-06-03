@@ -39,10 +39,13 @@ C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\MvcApp\obj\Debu
 C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\MvcApp\obj\Debug\MvcApp.pdb
 C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\MvcApp\bin\Service.dll
 C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\MvcApp\bin\Service.pdb
+E:\code\UnitOfWork\MvcApp\obj\Debug\MvcApp.csprojAssemblyReference.cache
+E:\code\UnitOfWork\MvcApp\obj\Debug\MvcApp.csproj.CoreCompileInputs.cache
 E:\code\UnitOfWork\MvcApp\bin\MvcApp.dll.config
 E:\code\UnitOfWork\MvcApp\bin\MvcApp.dll
 E:\code\UnitOfWork\MvcApp\bin\MvcApp.pdb
 E:\code\UnitOfWork\MvcApp\bin\Antlr3.Runtime.dll
+E:\code\UnitOfWork\MvcApp\bin\EFFramework.dll
 E:\code\UnitOfWork\MvcApp\bin\EntityFramework.dll
 E:\code\UnitOfWork\MvcApp\bin\EntityFramework.SqlServer.dll
 E:\code\UnitOfWork\MvcApp\bin\Microsoft.Web.Infrastructure.dll
@@ -61,7 +64,8 @@ E:\code\UnitOfWork\MvcApp\bin\System.Web.WebPages.Deployment.dll
 E:\code\UnitOfWork\MvcApp\bin\System.Web.WebPages.dll
 E:\code\UnitOfWork\MvcApp\bin\System.Web.WebPages.Razor.dll
 E:\code\UnitOfWork\MvcApp\bin\WebGrease.dll
-E:\code\UnitOfWork\MvcApp\bin\EFFramework.dll
+E:\code\UnitOfWork\MvcApp\bin\EFFramework.pdb
+E:\code\UnitOfWork\MvcApp\bin\EFFramework.dll.config
 E:\code\UnitOfWork\MvcApp\bin\Models.pdb
 E:\code\UnitOfWork\MvcApp\bin\Service.pdb
 E:\code\UnitOfWork\MvcApp\bin\EntityFramework.xml
@@ -75,8 +79,6 @@ E:\code\UnitOfWork\MvcApp\bin\System.Web.Razor.xml
 E:\code\UnitOfWork\MvcApp\bin\System.Web.WebPages.xml
 E:\code\UnitOfWork\MvcApp\bin\System.Web.WebPages.Deployment.xml
 E:\code\UnitOfWork\MvcApp\bin\System.Web.WebPages.Razor.xml
-E:\code\UnitOfWork\MvcApp\bin\EFFramework.pdb
-E:\code\UnitOfWork\MvcApp\bin\EFFramework.dll.config
 E:\code\UnitOfWork\MvcApp\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
 E:\code\UnitOfWork\MvcApp\bin\zh-Hans\System.Web.Http.resources.dll
 E:\code\UnitOfWork\MvcApp\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
@@ -87,8 +89,6 @@ E:\code\UnitOfWork\MvcApp\bin\zh-Hans\System.Web.Razor.resources.dll
 E:\code\UnitOfWork\MvcApp\bin\zh-Hans\System.Web.WebPages.resources.dll
 E:\code\UnitOfWork\MvcApp\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
 E:\code\UnitOfWork\MvcApp\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
-E:\code\UnitOfWork\MvcApp\obj\Debug\MvcApp.csprojAssemblyReference.cache
-E:\code\UnitOfWork\MvcApp\obj\Debug\MvcApp.csproj.CoreCompileInputs.cache
 E:\code\UnitOfWork\MvcApp\obj\Debug\MvcApp.csproj.CopyComplete
 E:\code\UnitOfWork\MvcApp\obj\Debug\MvcApp.dll
 E:\code\UnitOfWork\MvcApp\obj\Debug\MvcApp.pdb

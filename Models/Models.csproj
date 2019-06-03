@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entitys\manager.cs" />
+    <Compile Include="Entitys\manager_log.cs" />
+    <Compile Include="Entitys\manager_role.cs" />
+    <Compile Include="Entitys\manager_role_value.cs" />
+    <Compile Include="Entitys\navigation.cs" />
     <Compile Include="IBaseEntity.cs" />
     <Compile Include="Entitys\Book.cs" />
     <Compile Include="Entitys\Users.cs" />

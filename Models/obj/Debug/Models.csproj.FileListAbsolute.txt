@@ -5,7 +5,6 @@ C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Models\obj\Debu
 C:\Users\liumj5\Documents\Visual Studio 2013\Projects\UnitOfWork\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 E:\code\UnitOfWork\Models\bin\Debug\Models.dll
 E:\code\UnitOfWork\Models\bin\Debug\Models.pdb
-E:\code\UnitOfWork\Models\obj\Debug\Models.csprojAssemblyReference.cache
 E:\code\UnitOfWork\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
 E:\code\UnitOfWork\Models\obj\Debug\Models.dll
 E:\code\UnitOfWork\Models\obj\Debug\Models.pdb

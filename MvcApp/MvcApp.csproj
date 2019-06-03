@@ -133,84 +133,147 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\BookController.cs" />
+    <Compile Include="Controllers\NavigationController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
-    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
-    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
-    <Content Include="Content\themes\base\jquery-ui.css" />
-    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
-    <Content Include="Content\themes\base\jquery.ui.all.css" />
-    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
-    <Content Include="Content\themes\base\jquery.ui.base.css" />
-    <Content Include="Content\themes\base\jquery.ui.button.css" />
-    <Content Include="Content\themes\base\jquery.ui.core.css" />
-    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
-    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
-    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
-    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
-    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
-    <Content Include="Content\themes\base\jquery.ui.slider.css" />
-    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
-    <Content Include="Content\themes\base\jquery.ui.theme.css" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
-    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
-    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
-    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
-    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\js\common.js" />
+    <Content Include="Content\js\layindex.js" />
+    <Content Include="Content\js\laymain.js" />
+    <Content Include="Content\js\uploader.js" />
+    <Content Include="Content\skin\base.css" />
+    <Content Include="Content\skin\default\ie_update.jpg" />
+    <Content Include="Content\skin\default\loadimg.gif" />
+    <Content Include="Content\skin\default\logo.png" />
+    <Content Include="Content\skin\default\style.css" />
+    <Content Include="Content\skin\default\valid_icons.png" />
+    <Content Include="Content\skin\icon\demo.css" />
+    <Content Include="Content\skin\icon\demo_fontclass.html" />
+    <Content Include="Content\skin\icon\demo_symbol.html" />
+    <Content Include="Content\skin\icon\demo_unicode.html" />
+    <Content Include="Content\skin\icon\iconfont.css" />
+    <Content Include="Content\skin\icon\iconfont.js" />
+    <Content Include="Content\skin\layout.css" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.8.2.js" />
-    <Content Include="Scripts\jquery-1.8.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery-ui-1.8.24.js" />
-    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\knockout-2.2.0.debug.js" />
-    <Content Include="Scripts\knockout-2.2.0.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\_references.js" />
+    <Content Include="Scripts\artdialog\dialog-min.js" />
+    <Content Include="Scripts\artdialog\dialog-plus-min.js" />
+    <Content Include="Scripts\artdialog\ui-dialog.css" />
+    <Content Include="Scripts\cuplayer\CuSunV4set.xml" />
+    <Content Include="Scripts\cuplayer\CuSunV4set15.xml" />
+    <Content Include="Scripts\cuplayer\CuSunV4set16.xml" />
+    <Content Include="Scripts\cuplayer\CuSunV4set2.xml" />
+    <Content Include="Scripts\cuplayer\CuSunV4setBlue.xml" />
+    <Content Include="Scripts\cuplayer\CuSunV4setLive.xml" />
+    <Content Include="Scripts\cuplayer\CuSunV4setNext.xml" />
+    <Content Include="Scripts\cuplayer\CuSunV4setRed.xml" />
+    <Content Include="Scripts\cuplayer\CuSunV4set_BAK_AD_DEMO.xml" />
+    <Content Include="Scripts\cuplayer\demo1.html" />
+    <Content Include="Scripts\cuplayer\demo10.html" />
+    <Content Include="Scripts\cuplayer\demo11.html" />
+    <Content Include="Scripts\cuplayer\demo12.html" />
+    <Content Include="Scripts\cuplayer\demo13.html" />
+    <Content Include="Scripts\cuplayer\demo14.html" />
+    <Content Include="Scripts\cuplayer\demo15.html" />
+    <Content Include="Scripts\cuplayer\demo16.html" />
+    <Content Include="Scripts\cuplayer\demo17.html" />
+    <Content Include="Scripts\cuplayer\demo18.html" />
+    <Content Include="Scripts\cuplayer\demo2.html" />
+    <Content Include="Scripts\cuplayer\demo3.html" />
+    <Content Include="Scripts\cuplayer\demo4.html" />
+    <Content Include="Scripts\cuplayer\demo5.html" />
+    <Content Include="Scripts\cuplayer\demo6.html" />
+    <Content Include="Scripts\cuplayer\demo7.html" />
+    <Content Include="Scripts\cuplayer\demo8.html" />
+    <Content Include="Scripts\cuplayer\demo9.html" />
+    <Content Include="Scripts\cuplayer\demoX1.html" />
+    <Content Include="Scripts\cuplayer\demoX2.html" />
+    <Content Include="Scripts\cuplayer\demoX3.html" />
+    <Content Include="Scripts\cuplayer\demoX4.html" />
+    <Content Include="Scripts\cuplayer\images\btn04_demo.gif" />
+    <Content Include="Scripts\cuplayer\images\btn04_down.gif" />
+    <Content Include="Scripts\cuplayer\images\common.css" />
+    <Content Include="Scripts\cuplayer\images\loading.gif" />
+    <Content Include="Scripts\cuplayer\images\logo.png" />
+    <Content Include="Scripts\cuplayer\images\logo44x38.png" />
+    <Content Include="Scripts\cuplayer\images\logoCu.jpg" />
+    <Content Include="Scripts\cuplayer\images\logoMini.jpg" />
+    <Content Include="Scripts\cuplayer\images\mini.css" />
+    <Content Include="Scripts\cuplayer\images\search.jpg" />
+    <Content Include="Scripts\cuplayer\images\startpic.jpg" />
+    <Content Include="Scripts\cuplayer\images\vico.png" />
+    <Content Include="Scripts\cuplayer\index.html" />
+    <Content Include="Scripts\cuplayer\index2.html" />
+    <Content Include="Scripts\cuplayer\js\action.js" />
+    <Content Include="Scripts\cuplayer\js\AsComV3.min.js" />
+    <Content Include="Scripts\cuplayer\js\CuSunL1.min.js" />
+    <Content Include="Scripts\cuplayer\js\CuSunL2.min.js" />
+    <Content Include="Scripts\cuplayer\js\CuSunX1.min.js" />
+    <Content Include="Scripts\cuplayer\js\CuSunX2.min.js" />
+    <Content Include="Scripts\cuplayer\js\CuSunX3.min.js" />
+    <Content Include="Scripts\cuplayer\js\CuSunX4.min.js" />
+    <Content Include="Scripts\cuplayer\js\jquery-1.4.2.min.js" />
+    <Content Include="Scripts\cuplayer\js\jquery172.js" />
+    <Content Include="Scripts\cuplayer\js\swfobject.js" />
+    <Content Include="Scripts\cuplayer\listDemo1.html" />
+    <Content Include="Scripts\cuplayer\listDemo2.html" />
+    <Content Include="Scripts\cuplayer\listDemo3.html" />
+    <Content Include="Scripts\cuplayer\listDemo4.html" />
+    <Content Include="Scripts\cuplayer\LiveL1.html" />
+    <Content Include="Scripts\cuplayer\LiveL2.html" />
+    <Content Include="Scripts\cuplayer\other\a300x250_01.jpg" />
+    <Content Include="Scripts\cuplayer\other\a300x250_01.swf" />
+    <Content Include="Scripts\cuplayer\other\a300x250_02.jpg" />
+    <Content Include="Scripts\cuplayer\other\a300x250_02.swf" />
+    <Content Include="Scripts\cuplayer\other\a400x300_01.swf" />
+    <Content Include="Scripts\cuplayer\other\a650x400_01.swf" />
+    <Content Include="Scripts\cuplayer\other\a650x400_02.swf" />
+    <Content Include="Scripts\cuplayer\other\a730x454_01.jpg" />
+    <Content Include="Scripts\cuplayer\other\a730x454_02.jpg" />
+    <Content Include="Scripts\cuplayer\other\a730x454_03.jpg" />
+    <Content Include="Scripts\cuplayer\other\a730x454_04.jpg" />
+    <Content Include="Scripts\cuplayer\other\a90x50_01.swf" />
+    <Content Include="Scripts\cuplayer\other\此目录下文件为广告示例.txt" />
+    <Content Include="Scripts\cuplayer\pic\pic01.jpg" />
+    <Content Include="Scripts\cuplayer\pic\pic02.jpg" />
+    <Content Include="Scripts\cuplayer\pic\pic03.jpg" />
+    <Content Include="Scripts\cuplayer\pic\pic04.jpg" />
+    <Content Include="Scripts\cuplayer\pic\pic05.jpg" />
+    <Content Include="Scripts\cuplayer\pic\pic06.jpg" />
+    <Content Include="Scripts\cuplayer\pic\pic07.jpg" />
+    <Content Include="Scripts\cuplayer\pic\pic08.jpg" />
+    <Content Include="Scripts\cuplayer\pic\pic09.jpg" />
+    <Content Include="Scripts\cuplayer\pic\pic10.jpg" />
+    <Content Include="Scripts\cuplayer\pic\此目录下文件为结束示例图片.txt" />
+    <Content Include="Scripts\cuplayer\player.swf" />
+    <Content Include="Scripts\cuplayer\setForShare.xml" />
+    <Content Include="Scripts\cuplayer\style.css" />
+    <Content Include="Scripts\datepicker\calendar.js" />
+    <Content Include="Scripts\datepicker\lang\en.js" />
+    <Content Include="Scripts\datepicker\lang\zh-cn.js" />
+    <Content Include="Scripts\datepicker\lang\zh-tw.js" />
+    <Content Include="Scripts\datepicker\skin\datePicker.gif" />
+    <Content Include="Scripts\datepicker\skin\default\datepicker.css" />
+    <Content Include="Scripts\datepicker\skin\default\img.gif" />
+    <Content Include="Scripts\datepicker\skin\WdatePicker.css" />
+    <Content Include="Scripts\datepicker\skin\whyGreen\bg.jpg" />
+    <Content Include="Scripts\datepicker\skin\whyGreen\datepicker.css" />
+    <Content Include="Scripts\datepicker\skin\whyGreen\img.gif" />
+    <Content Include="Scripts\datepicker\WdatePicker.js" />
+    <Content Include="Scripts\jquery\jquery-1.11.2.min.js" />
+    <Content Include="Scripts\jquery\jquery.form.min.js" />
+    <Content Include="Scripts\jquery\jquery.jcrop.min.js" />
+    <Content Include="Scripts\jquery\jquery.jqzoom.js" />
+    <Content Include="Scripts\jquery\jquery.lazyload.min.js" />
+    <Content Include="Scripts\jquery\jquery.nicescroll.js" />
+    <Content Include="Scripts\jquery\jquery.pagination.js" />
+    <Content Include="Scripts\jquery\PCASClass.js" />
+    <Content Include="Scripts\jquery\Validform_v5.3.2_min.js" />
+    <Content Include="Scripts\webuploader\uploader.swf" />
+    <Content Include="Scripts\webuploader\webuploader.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -228,9 +291,6 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\EFFramework\EFFramework.csproj">
       <Project>{b27dd841-828f-4db8-90e7-4d0a7f09a8da}</Project>
       <Name>EFFramework</Name>
@@ -243,6 +303,18 @@
       <Project>{267d238c-aed0-4025-8dde-c21dc21baab4}</Project>
       <Name>Service</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Users\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\skin\icon\iconfont.eot" />
+    <Content Include="Content\skin\icon\iconfont.svg" />
+    <Content Include="Content\skin\icon\iconfont.ttf" />
+    <Content Include="Content\skin\icon\iconfont.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Navigation\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
