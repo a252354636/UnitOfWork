@@ -32,11 +32,11 @@ namespace MvcApp.Controllers
       //service.Add(b);
       //service.Add(u);
       //service.Commit();
-     users users = service.GetModel<users>(s => s.id == 1);
+     users u = service.GetModel<users>(s => s.id == 1);
       //book.Name = "天天向上";
-      List<UserOnBookModel> bk = service.GetSqlQuery<UserOnBookModel>();
+     // List<UserOnBookModel> bk = service.GetSqlQuery<UserOnBookModel>();
 
-      return Content(bk[0].BookName);
+      return Content(u.user_name);
       // return Content("");
     }
 

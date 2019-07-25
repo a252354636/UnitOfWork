@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp", "MvcApp\MvcApp.csproj", "{B587C07E-9E96-4138-B2DF-E17DE5A7AE8C}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{DEF99E8E-91F7-432B-BA98-48D07C06B83B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{267D238C-AED0-4025-8DDE-C21DC21BAAB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4", "T4\T4.csproj", "{6BD6A3EB-DA8F-423C-8215-FD835F25FEF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{267D238C-AED0-4025-8DDE-C21DC21BAAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{267D238C-AED0-4025-8DDE-C21DC21BAAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{267D238C-AED0-4025-8DDE-C21DC21BAAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD6A3EB-DA8F-423C-8215-FD835F25FEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD6A3EB-DA8F-423C-8215-FD835F25FEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD6A3EB-DA8F-423C-8215-FD835F25FEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD6A3EB-DA8F-423C-8215-FD835F25FEF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6C45B46-FCD8-474F-B326-B54DE1E34369}
 	EndGlobalSection
 EndGlobal
