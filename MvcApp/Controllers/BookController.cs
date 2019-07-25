@@ -22,17 +22,17 @@ namespace MvcApp.Controllers
 
     public ActionResult Index()
     {
-      Book b = new Book();
-      b.ID = 7;
-      b.Uid = 1;
-      b.Name = "天书奇谈" + DateTime.Now;
-      Users u = new Users();
-      u.id = 1;
-      u.user_name = "周杰伦" + DateTime.Now;
-      service.Add(b);
-      service.Add(u);
-      service.Commit();
-      service.GetModel<Book>(s => s.ID == 1);
+      //Book b = new Book();
+      //b.ID = 7;
+      //b.Uid = 1;
+      //b.Name = "天书奇谈" + DateTime.Now;
+      //users u = new users();
+      //u.id = 1;
+      //u.user_name = "周杰伦" + DateTime.Now;
+      //service.Add(b);
+      //service.Add(u);
+      //service.Commit();
+     users users = service.GetModel<users>(s => s.id == 1);
       //book.Name = "天天向上";
       List<UserOnBookModel> bk = service.GetSqlQuery<UserOnBookModel>();
 
