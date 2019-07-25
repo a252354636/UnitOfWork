@@ -22,11 +22,11 @@ namespace Models
         /// <summary>
         /// 频道ID
         /// </summary>
-         public int channel_id{ get; set; }
+         public int? channel_id{ get; set; }
         /// <summary>
         /// 文章ID
         /// </summary>
-         public int article_id{ get; set; }
+         public int? article_id{ get; set; }
         /// <summary>
         /// 文件名
         /// </summary>
@@ -38,7 +38,7 @@ namespace Models
         /// <summary>
         /// 文件大小(字节)
         /// </summary>
-         public int file_size{ get; set; }
+         public int? file_size{ get; set; }
         /// <summary>
         /// 文件扩展名
         /// </summary>
@@ -46,15 +46,15 @@ namespace Models
         /// <summary>
         /// 下载次数
         /// </summary>
-         public int down_num{ get; set; }
+         public int? down_num{ get; set; }
         /// <summary>
         /// 积分(正赠送负消费)
         /// </summary>
-         public int point{ get; set; }
+         public int? point{ get; set; }
         /// <summary>
         /// 上传时间
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
  
 
 	}

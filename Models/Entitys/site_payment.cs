@@ -22,11 +22,11 @@ namespace Models
         /// <summary>
         /// 所属站点
         /// </summary>
-         public int site_id{ get; set; }
+         public int? site_id{ get; set; }
         /// <summary>
         /// 支付方式ID
         /// </summary>
-         public int payment_id{ get; set; }
+         public int? payment_id{ get; set; }
         /// <summary>
         /// 自定义标题
         /// </summary>
@@ -50,11 +50,11 @@ namespace Models
         /// <summary>
         /// 排序数字
         /// </summary>
-         public int sort_id{ get; set; }
+         public int? sort_id{ get; set; }
         /// <summary>
         /// 添加时间
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
  
 
 	}

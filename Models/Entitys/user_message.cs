@@ -22,7 +22,7 @@ namespace Models
         /// <summary>
         /// 短信息类型0系统消息1收件箱2发件箱
         /// </summary>
-         public byte type{ get; set; }
+         public byte? type{ get; set; }
         /// <summary>
         /// 发件人
         /// </summary>
@@ -34,7 +34,7 @@ namespace Models
         /// <summary>
         /// 是否查看0未阅1已阅
         /// </summary>
-         public byte is_read{ get; set; }
+         public byte? is_read{ get; set; }
         /// <summary>
         /// 短信息标题
         /// </summary>
@@ -50,7 +50,7 @@ namespace Models
         /// <summary>
         /// 阅读时间
         /// </summary>
-         public DateTime read_time{ get; set; }
+         public DateTime? read_time{ get; set; }
  
 
 	}

@@ -22,11 +22,11 @@ namespace Models
         /// <summary>
         /// 频道ID
         /// </summary>
-         public int channel_id{ get; set; }
+         public int? channel_id{ get; set; }
         /// <summary>
         /// 字段ID
         /// </summary>
-         public int field_id{ get; set; }
+         public int? field_id{ get; set; }
  
 
 	}

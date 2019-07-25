@@ -34,11 +34,11 @@ namespace Models
         /// <summary>
         /// 排序数字
         /// </summary>
-         public int sort_id{ get; set; }
+         public int? sort_id{ get; set; }
         /// <summary>
         /// 是否启用
         /// </summary>
-         public byte is_lock{ get; set; }
+         public byte? is_lock{ get; set; }
         /// <summary>
         /// 接口目录
         /// </summary>

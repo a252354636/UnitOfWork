@@ -22,7 +22,7 @@ namespace Models
         /// <summary>
         /// 站点ID
         /// </summary>
-         public int site_id{ get; set; }
+         public int? site_id{ get; set; }
         /// <summary>
         /// 频道名称
         /// </summary>
@@ -34,31 +34,31 @@ namespace Models
         /// <summary>
         /// 否开启评论
         /// </summary>
-         public byte is_comment{ get; set; }
+         public byte? is_comment{ get; set; }
         /// <summary>
         /// 是否开启相册功能
         /// </summary>
-         public byte is_albums{ get; set; }
+         public byte? is_albums{ get; set; }
         /// <summary>
         /// 是否开启附件功能
         /// </summary>
-         public byte is_attach{ get; set; }
+         public byte? is_attach{ get; set; }
         /// <summary>
         /// 是否开启价格
         /// </summary>
-         public byte is_spec{ get; set; }
+         public byte? is_spec{ get; set; }
         /// <summary>
         /// 是否允许投稿
         /// </summary>
-         public byte is_contribute{ get; set; }
+         public byte? is_contribute{ get; set; }
         /// <summary>
         /// 排序数字
         /// </summary>
-         public int sort_id{ get; set; }
+         public int? sort_id{ get; set; }
         /// <summary>
         /// 状态0启用1禁用
         /// </summary>
-         public byte is_lock{ get; set; }
+         public byte? is_lock{ get; set; }
  
 
 	}

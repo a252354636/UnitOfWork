@@ -38,7 +38,7 @@ namespace Models
         /// <summary>
         /// 系统默认
         /// </summary>
-         public byte is_sys{ get; set; }
+         public byte? is_sys{ get; set; }
  
 
 	}

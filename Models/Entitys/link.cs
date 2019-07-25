@@ -66,7 +66,7 @@ namespace Models
         /// <summary>
         /// 
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
  
 
 	}

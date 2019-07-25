@@ -122,7 +122,7 @@ namespace Models
         /// <summary>
         /// 
         /// </summary>
-         public DateTime update_time{ get; set; }
+         public DateTime? update_time{ get; set; }
         /// <summary>
         /// 
         /// </summary>

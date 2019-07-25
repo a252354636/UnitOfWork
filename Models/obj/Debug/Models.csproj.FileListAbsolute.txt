@@ -8,3 +8,4 @@ E:\code\UnitOfWork\Models\bin\Debug\Models.pdb
 E:\code\UnitOfWork\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
 E:\code\UnitOfWork\Models\obj\Debug\Models.dll
 E:\code\UnitOfWork\Models\obj\Debug\Models.pdb
+E:\code\UnitOfWork\Models\obj\Debug\Models.csprojAssemblyReference.cache

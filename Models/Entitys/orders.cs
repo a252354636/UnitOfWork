@@ -22,7 +22,7 @@ namespace Models
         /// <summary>
         /// 站点ID
         /// </summary>
-         public int site_id{ get; set; }
+         public int? site_id{ get; set; }
         /// <summary>
         /// 订单号
         /// </summary>
@@ -34,7 +34,7 @@ namespace Models
         /// <summary>
         /// 用户ID
         /// </summary>
-         public int user_id{ get; set; }
+         public int? user_id{ get; set; }
         /// <summary>
         /// 用户名
         /// </summary>
@@ -42,23 +42,23 @@ namespace Models
         /// <summary>
         /// 支付方式
         /// </summary>
-         public int payment_id{ get; set; }
+         public int? payment_id{ get; set; }
         /// <summary>
         /// 支付手续费
         /// </summary>
-         public decimal payment_fee{ get; set; }
+         public decimal? payment_fee{ get; set; }
         /// <summary>
         /// 支付状态0未支付1待支付2已支付
         /// </summary>
-         public byte payment_status{ get; set; }
+         public byte? payment_status{ get; set; }
         /// <summary>
         /// 支付时间
         /// </summary>
-         public DateTime payment_time{ get; set; }
+         public DateTime? payment_time{ get; set; }
         /// <summary>
         /// 快递ID
         /// </summary>
-         public int express_id{ get; set; }
+         public int? express_id{ get; set; }
         /// <summary>
         /// 快递单号
         /// </summary>
@@ -66,15 +66,15 @@ namespace Models
         /// <summary>
         /// 物流费用
         /// </summary>
-         public decimal express_fee{ get; set; }
+         public decimal? express_fee{ get; set; }
         /// <summary>
         /// 发货状态1未发货2已发货
         /// </summary>
-         public byte express_status{ get; set; }
+         public byte? express_status{ get; set; }
         /// <summary>
         /// 发货时间
         /// </summary>
-         public DateTime express_time{ get; set; }
+         public DateTime? express_time{ get; set; }
         /// <summary>
         /// 收货人姓名
         /// </summary>
@@ -114,7 +114,7 @@ namespace Models
         /// <summary>
         /// 是否索要发票
         /// </summary>
-         public byte is_invoice{ get; set; }
+         public byte? is_invoice{ get; set; }
         /// <summary>
         /// 发票抬头
         /// </summary>
@@ -122,39 +122,39 @@ namespace Models
         /// <summary>
         /// 税金
         /// </summary>
-         public decimal invoice_taxes{ get; set; }
+         public decimal? invoice_taxes{ get; set; }
         /// <summary>
         /// 应付商品总金额
         /// </summary>
-         public decimal payable_amount{ get; set; }
+         public decimal? payable_amount{ get; set; }
         /// <summary>
         /// 实付商品总金额
         /// </summary>
-         public decimal real_amount{ get; set; }
+         public decimal? real_amount{ get; set; }
         /// <summary>
         /// 订单总金额
         /// </summary>
-         public decimal order_amount{ get; set; }
+         public decimal? order_amount{ get; set; }
         /// <summary>
         /// 积分,正数赠送|负数消费
         /// </summary>
-         public int point{ get; set; }
+         public int? point{ get; set; }
         /// <summary>
         /// 订单状态1生成订单,2确认订单,3完成订单,4取消订单,5作废订单
         /// </summary>
-         public byte status{ get; set; }
+         public byte? status{ get; set; }
         /// <summary>
         /// 下单时间
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
         /// <summary>
         /// 确认时间
         /// </summary>
-         public DateTime confirm_time{ get; set; }
+         public DateTime? confirm_time{ get; set; }
         /// <summary>
         /// 订单完成时间
         /// </summary>
-         public DateTime complete_time{ get; set; }
+         public DateTime? complete_time{ get; set; }
  
 
 	}

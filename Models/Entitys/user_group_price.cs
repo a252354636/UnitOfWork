@@ -22,19 +22,19 @@ namespace Models
         /// <summary>
         /// 频道ID
         /// </summary>
-         public int channel_id{ get; set; }
+         public int? channel_id{ get; set; }
         /// <summary>
         /// 文章ID
         /// </summary>
-         public int article_id{ get; set; }
+         public int? article_id{ get; set; }
         /// <summary>
         /// 会员组ID
         /// </summary>
-         public int group_id{ get; set; }
+         public int? group_id{ get; set; }
         /// <summary>
         /// 价格
         /// </summary>
-         public decimal price{ get; set; }
+         public decimal? price{ get; set; }
  
 
 	}

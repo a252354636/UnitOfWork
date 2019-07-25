@@ -22,7 +22,7 @@ namespace Models
         /// <summary>
         /// 站点ID
         /// </summary>
-         public int site_id{ get; set; }
+         public int? site_id{ get; set; }
         /// <summary>
         /// 频道ID
         /// </summary>
@@ -38,7 +38,7 @@ namespace Models
         /// <summary>
         /// 父类别ID
         /// </summary>
-         public int parent_id{ get; set; }
+         public int? parent_id{ get; set; }
         /// <summary>
         /// 类别ID列表(逗号分隔开)
         /// </summary>
@@ -46,11 +46,11 @@ namespace Models
         /// <summary>
         /// 类别深度
         /// </summary>
-         public int class_layer{ get; set; }
+         public int? class_layer{ get; set; }
         /// <summary>
         /// 排序数字
         /// </summary>
-         public int sort_id{ get; set; }
+         public int? sort_id{ get; set; }
         /// <summary>
         /// URL跳转地址
         /// </summary>
@@ -78,7 +78,7 @@ namespace Models
         /// <summary>
         /// 状态0正常1禁用
         /// </summary>
-         public byte is_lock{ get; set; }
+         public byte? is_lock{ get; set; }
  
 
 	}

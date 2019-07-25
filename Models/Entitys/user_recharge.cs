@@ -22,7 +22,7 @@ namespace Models
         /// <summary>
         /// 用户ID
         /// </summary>
-         public int user_id{ get; set; }
+         public int? user_id{ get; set; }
         /// <summary>
         /// 用户名
         /// </summary>
@@ -34,23 +34,23 @@ namespace Models
         /// <summary>
         /// 支付方式ID
         /// </summary>
-         public int payment_id{ get; set; }
+         public int? payment_id{ get; set; }
         /// <summary>
         /// 金额
         /// </summary>
-         public decimal amount{ get; set; }
+         public decimal? amount{ get; set; }
         /// <summary>
         /// 状态0未完成1已完成
         /// </summary>
-         public byte status{ get; set; }
+         public byte? status{ get; set; }
         /// <summary>
         /// 生成时间
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
         /// <summary>
         /// 完成时间
         /// </summary>
-         public DateTime complete_time{ get; set; }
+         public DateTime? complete_time{ get; set; }
  
 
 	}

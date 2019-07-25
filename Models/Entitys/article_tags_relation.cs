@@ -22,15 +22,15 @@ namespace Models
         /// <summary>
         /// 频道ID
         /// </summary>
-         public int channel_id{ get; set; }
+         public int? channel_id{ get; set; }
         /// <summary>
         /// 文章ID
         /// </summary>
-         public int article_id{ get; set; }
+         public int? article_id{ get; set; }
         /// <summary>
         /// 标签ID
         /// </summary>
-         public int tag_id{ get; set; }
+         public int? tag_id{ get; set; }
  
 
 	}

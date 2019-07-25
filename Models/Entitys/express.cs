@@ -30,7 +30,7 @@ namespace Models
         /// <summary>
         /// 配送费用
         /// </summary>
-         public decimal express_fee{ get; set; }
+         public decimal? express_fee{ get; set; }
         /// <summary>
         /// 快递网址
         /// </summary>
@@ -42,11 +42,11 @@ namespace Models
         /// <summary>
         /// 排序
         /// </summary>
-         public int sort_id{ get; set; }
+         public int? sort_id{ get; set; }
         /// <summary>
         /// 是否不显示
         /// </summary>
-         public byte is_lock{ get; set; }
+         public byte? is_lock{ get; set; }
  
 
 	}

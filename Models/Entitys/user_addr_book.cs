@@ -22,7 +22,7 @@ namespace Models
         /// <summary>
         /// 用户ID
         /// </summary>
-         public int user_id{ get; set; }
+         public int? user_id{ get; set; }
         /// <summary>
         /// 用户名
         /// </summary>
@@ -58,11 +58,11 @@ namespace Models
         /// <summary>
         /// 是否默认
         /// </summary>
-         public byte is_default{ get; set; }
+         public byte? is_default{ get; set; }
         /// <summary>
         /// 添加时间
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
  
 
 	}

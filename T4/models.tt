@@ -55,7 +55,7 @@ namespace Models
         WriteLine("/// <summary>");
         WriteLine("/// "+column.Remark.Replace(Environment.NewLine, ""));
         WriteLine("/// </summary>");
-		WriteLine(" public "+column.CSharpType +" "+column.ColumnName + "{ get; set; }"); 
+		WriteLine(" public "+column.CSharpType +(column.CSharpType!="string" && column.IsNullable==true?"?":"")+" "+column.ColumnName + "{ get; set; }"); 
     }
 #>
 

@@ -26,15 +26,15 @@ namespace Models
         /// <summary>
         /// 是否推荐
         /// </summary>
-         public byte is_red{ get; set; }
+         public byte? is_red{ get; set; }
         /// <summary>
         /// 排序数字
         /// </summary>
-         public int sort_id{ get; set; }
+         public int? sort_id{ get; set; }
         /// <summary>
         /// 时间
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
  
 
 	}

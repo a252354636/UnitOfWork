@@ -26,35 +26,35 @@ namespace Models
         /// <summary>
         /// 会员等级值
         /// </summary>
-         public int grade{ get; set; }
+         public int? grade{ get; set; }
         /// <summary>
         /// 升级经验值
         /// </summary>
-         public int upgrade_exp{ get; set; }
+         public int? upgrade_exp{ get; set; }
         /// <summary>
         /// 默认预存款
         /// </summary>
-         public decimal amount{ get; set; }
+         public decimal? amount{ get; set; }
         /// <summary>
         /// 默认积分
         /// </summary>
-         public int point{ get; set; }
+         public int? point{ get; set; }
         /// <summary>
         /// 购物折扣
         /// </summary>
-         public int discount{ get; set; }
+         public int? discount{ get; set; }
         /// <summary>
         /// 是否注册用户组
         /// </summary>
-         public byte is_default{ get; set; }
+         public byte? is_default{ get; set; }
         /// <summary>
         /// 是否自动升级
         /// </summary>
-         public byte is_upgrade{ get; set; }
+         public byte? is_upgrade{ get; set; }
         /// <summary>
         /// 是否禁用
         /// </summary>
-         public byte is_lock{ get; set; }
+         public byte? is_lock{ get; set; }
  
 
 	}

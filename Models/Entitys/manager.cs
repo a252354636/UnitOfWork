@@ -22,11 +22,11 @@ namespace Models
         /// <summary>
         /// 角色ID
         /// </summary>
-         public int role_id{ get; set; }
+         public int? role_id{ get; set; }
         /// <summary>
         /// 管理员类型1超管2系管
         /// </summary>
-         public int role_type{ get; set; }
+         public int? role_type{ get; set; }
         /// <summary>
         /// 用户名
         /// </summary>
@@ -58,15 +58,15 @@ namespace Models
         /// <summary>
         /// 
         /// </summary>
-         public byte is_audit{ get; set; }
+         public byte? is_audit{ get; set; }
         /// <summary>
         /// 是否锁定
         /// </summary>
-         public int is_lock{ get; set; }
+         public int? is_lock{ get; set; }
         /// <summary>
         /// 添加时间
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
  
 
 	}

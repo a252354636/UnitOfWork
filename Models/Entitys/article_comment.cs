@@ -22,23 +22,23 @@ namespace Models
         /// <summary>
         /// 站点ID
         /// </summary>
-         public int site_id{ get; set; }
+         public int? site_id{ get; set; }
         /// <summary>
         /// 频道ID
         /// </summary>
-         public int channel_id{ get; set; }
+         public int? channel_id{ get; set; }
         /// <summary>
         /// 主表ID
         /// </summary>
-         public int article_id{ get; set; }
+         public int? article_id{ get; set; }
         /// <summary>
         /// 父评论ID
         /// </summary>
-         public int parent_id{ get; set; }
+         public int? parent_id{ get; set; }
         /// <summary>
         /// 用户ID
         /// </summary>
-         public int user_id{ get; set; }
+         public int? user_id{ get; set; }
         /// <summary>
         /// 用户名
         /// </summary>
@@ -54,15 +54,15 @@ namespace Models
         /// <summary>
         /// 是否锁定
         /// </summary>
-         public byte is_lock{ get; set; }
+         public byte? is_lock{ get; set; }
         /// <summary>
         /// 发表时间
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
         /// <summary>
         /// 是否已答复
         /// </summary>
-         public byte is_reply{ get; set; }
+         public byte? is_reply{ get; set; }
         /// <summary>
         /// 答复内容
         /// </summary>
@@ -70,7 +70,7 @@ namespace Models
         /// <summary>
         /// 回复时间
         /// </summary>
-         public DateTime reply_time{ get; set; }
+         public DateTime? reply_time{ get; set; }
  
 
 	}

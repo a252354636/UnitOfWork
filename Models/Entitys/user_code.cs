@@ -22,7 +22,7 @@ namespace Models
         /// <summary>
         /// 用户ID
         /// </summary>
-         public int user_id{ get; set; }
+         public int? user_id{ get; set; }
         /// <summary>
         /// 用户名
         /// </summary>
@@ -38,11 +38,11 @@ namespace Models
         /// <summary>
         /// 使用次数
         /// </summary>
-         public int count{ get; set; }
+         public int? count{ get; set; }
         /// <summary>
         /// 状态0未使用1已使用
         /// </summary>
-         public byte status{ get; set; }
+         public byte? status{ get; set; }
         /// <summary>
         /// 用户IP
         /// </summary>

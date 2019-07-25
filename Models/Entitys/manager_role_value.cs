@@ -22,7 +22,7 @@ namespace Models
         /// <summary>
         /// 角色ID
         /// </summary>
-         public int role_id{ get; set; }
+         public int? role_id{ get; set; }
         /// <summary>
         /// 导航名称
         /// </summary>

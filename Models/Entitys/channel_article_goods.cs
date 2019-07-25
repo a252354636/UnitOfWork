@@ -122,7 +122,7 @@ namespace Models
         /// <summary>
         /// 
         /// </summary>
-         public DateTime update_time{ get; set; }
+         public DateTime? update_time{ get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -134,19 +134,19 @@ namespace Models
         /// <summary>
         /// 
         /// </summary>
-         public int stock_quantity{ get; set; }
+         public int? stock_quantity{ get; set; }
         /// <summary>
         /// 
         /// </summary>
-         public decimal market_price{ get; set; }
+         public decimal? market_price{ get; set; }
         /// <summary>
         /// 
         /// </summary>
-         public decimal sell_price{ get; set; }
+         public decimal? sell_price{ get; set; }
         /// <summary>
         /// 
         /// </summary>
-         public int point{ get; set; }
+         public int? point{ get; set; }
  
 
 	}

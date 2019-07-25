@@ -58,7 +58,7 @@ namespace Models
         /// <summary>
         /// 
         /// </summary>
-         public DateTime reply_time{ get; set; }
+         public DateTime? reply_time{ get; set; }
         /// <summary>
         /// 
         /// </summary>

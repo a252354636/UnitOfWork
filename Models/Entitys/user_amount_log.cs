@@ -22,7 +22,7 @@ namespace Models
         /// <summary>
         /// 用户ID
         /// </summary>
-         public int user_id{ get; set; }
+         public int? user_id{ get; set; }
         /// <summary>
         /// 用户名
         /// </summary>
@@ -30,7 +30,7 @@ namespace Models
         /// <summary>
         /// 增减值
         /// </summary>
-         public decimal value{ get; set; }
+         public decimal? value{ get; set; }
         /// <summary>
         /// 备注说明
         /// </summary>
@@ -38,7 +38,7 @@ namespace Models
         /// <summary>
         /// 生成时间
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
  
 
 	}

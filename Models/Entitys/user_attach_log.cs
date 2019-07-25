@@ -22,7 +22,7 @@ namespace Models
         /// <summary>
         /// 用户ID
         /// </summary>
-         public int user_id{ get; set; }
+         public int? user_id{ get; set; }
         /// <summary>
         /// 用户名
         /// </summary>
@@ -30,7 +30,7 @@ namespace Models
         /// <summary>
         /// 附件ID
         /// </summary>
-         public int attach_id{ get; set; }
+         public int? attach_id{ get; set; }
         /// <summary>
         /// 附件名称
         /// </summary>
@@ -38,7 +38,7 @@ namespace Models
         /// <summary>
         /// 下载时间
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
  
 
 	}

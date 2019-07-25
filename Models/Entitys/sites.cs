@@ -38,7 +38,7 @@ namespace Models
         /// <summary>
         /// 是否默认站
         /// </summary>
-         public byte is_default{ get; set; }
+         public byte? is_default{ get; set; }
         /// <summary>
         /// 网站名称
         /// </summary>
@@ -90,11 +90,11 @@ namespace Models
         /// <summary>
         /// 排序数字
         /// </summary>
-         public int sort_id{ get; set; }
+         public int? sort_id{ get; set; }
         /// <summary>
         /// 状态0正常1禁用
         /// </summary>
-         public byte is_lock{ get; set; }
+         public byte? is_lock{ get; set; }
  
 
 	}

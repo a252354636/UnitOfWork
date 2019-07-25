@@ -22,7 +22,7 @@ namespace Models
         /// <summary>
         /// 用户ID
         /// </summary>
-         public int user_id{ get; set; }
+         public int? user_id{ get; set; }
         /// <summary>
         /// 用户名
         /// </summary>
@@ -34,7 +34,7 @@ namespace Models
         /// <summary>
         /// 登录时间
         /// </summary>
-         public DateTime login_time{ get; set; }
+         public DateTime? login_time{ get; set; }
         /// <summary>
         /// 登录IP
         /// </summary>

@@ -22,19 +22,19 @@ namespace Models
         /// <summary>
         /// 频道ID
         /// </summary>
-         public int channel_id{ get; set; }
+         public int? channel_id{ get; set; }
         /// <summary>
         /// 文章ID
         /// </summary>
-         public int article_id{ get; set; }
+         public int? article_id{ get; set; }
         /// <summary>
         /// 订单ID
         /// </summary>
-         public int order_id{ get; set; }
+         public int? order_id{ get; set; }
         /// <summary>
         /// 商品ID
         /// </summary>
-         public int goods_id{ get; set; }
+         public int? goods_id{ get; set; }
         /// <summary>
         /// 商品货号
         /// </summary>
@@ -50,19 +50,19 @@ namespace Models
         /// <summary>
         /// 商品价格
         /// </summary>
-         public decimal goods_price{ get; set; }
+         public decimal? goods_price{ get; set; }
         /// <summary>
         /// 实际价格
         /// </summary>
-         public decimal real_price{ get; set; }
+         public decimal? real_price{ get; set; }
         /// <summary>
         /// 订购数量
         /// </summary>
-         public int quantity{ get; set; }
+         public int? quantity{ get; set; }
         /// <summary>
         /// 积分,正数赠送|负数消费
         /// </summary>
-         public int point{ get; set; }
+         public int? point{ get; set; }
  
 
 	}

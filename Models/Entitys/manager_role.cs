@@ -26,11 +26,11 @@ namespace Models
         /// <summary>
         /// 角色类型
         /// </summary>
-         public byte role_type{ get; set; }
+         public byte? role_type{ get; set; }
         /// <summary>
         /// 是否系统默认0否1是
         /// </summary>
-         public byte is_sys{ get; set; }
+         public byte? is_sys{ get; set; }
  
 
 	}

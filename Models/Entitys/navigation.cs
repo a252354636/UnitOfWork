@@ -22,11 +22,11 @@ namespace Models
         /// <summary>
         /// 所属父导航ID
         /// </summary>
-         public int parent_id{ get; set; }
+         public int? parent_id{ get; set; }
         /// <summary>
         /// 所属频道ID
         /// </summary>
-         public int channel_id{ get; set; }
+         public int? channel_id{ get; set; }
         /// <summary>
         /// 导航类别
         /// </summary>
@@ -54,11 +54,11 @@ namespace Models
         /// <summary>
         /// 排序数字
         /// </summary>
-         public int sort_id{ get; set; }
+         public int? sort_id{ get; set; }
         /// <summary>
         /// 是否隐藏0显示1隐藏
         /// </summary>
-         public byte is_lock{ get; set; }
+         public byte? is_lock{ get; set; }
         /// <summary>
         /// 备注说明
         /// </summary>
@@ -70,7 +70,7 @@ namespace Models
         /// <summary>
         /// 系统默认
         /// </summary>
-         public byte is_sys{ get; set; }
+         public byte? is_sys{ get; set; }
  
 
 	}

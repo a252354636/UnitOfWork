@@ -22,11 +22,11 @@ namespace Models
         /// <summary>
         /// 站点ID
         /// </summary>
-         public int site_id{ get; set; }
+         public int? site_id{ get; set; }
         /// <summary>
         /// OAuth应用ID
         /// </summary>
-         public int oauth_id{ get; set; }
+         public int? oauth_id{ get; set; }
         /// <summary>
         /// 自定义标签
         /// </summary>
@@ -42,11 +42,11 @@ namespace Models
         /// <summary>
         /// 排序数字
         /// </summary>
-         public int sort_id{ get; set; }
+         public int? sort_id{ get; set; }
         /// <summary>
         /// 添加时间
         /// </summary>
-         public DateTime add_time{ get; set; }
+         public DateTime? add_time{ get; set; }
  
 
 	}

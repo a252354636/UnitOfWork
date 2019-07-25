@@ -34,15 +34,15 @@ namespace Models
         /// <summary>
         /// 支付类型1线上2线下
         /// </summary>
-         public byte type{ get; set; }
+         public byte? type{ get; set; }
         /// <summary>
         /// 手续费类型1百分比2固定金额
         /// </summary>
-         public byte poundage_type{ get; set; }
+         public byte? poundage_type{ get; set; }
         /// <summary>
         /// 手续费金额
         /// </summary>
-         public decimal poundage_amount{ get; set; }
+         public decimal? poundage_amount{ get; set; }
         /// <summary>
         /// API目录名
         /// </summary>
@@ -62,11 +62,11 @@ namespace Models
         /// <summary>
         /// 排序
         /// </summary>
-         public int sort_id{ get; set; }
+         public int? sort_id{ get; set; }
         /// <summary>
         /// 是否启用0正常1禁用
         /// </summary>
-         public byte is_lock{ get; set; }
+         public byte? is_lock{ get; set; }
  
 
 	}

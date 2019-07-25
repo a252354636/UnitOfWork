@@ -22,11 +22,11 @@ namespace Models
         /// <summary>
         /// 站点ID
         /// </summary>
-         public int site_id{ get; set; }
+         public int? site_id{ get; set; }
         /// <summary>
         /// 用户组ID
         /// </summary>
-         public int group_id{ get; set; }
+         public int? group_id{ get; set; }
         /// <summary>
         /// 用户名
         /// </summary>
@@ -62,7 +62,7 @@ namespace Models
         /// <summary>
         /// 生日
         /// </summary>
-         public DateTime birthday{ get; set; }
+         public DateTime? birthday{ get; set; }
         /// <summary>
         /// 电话
         /// </summary>
@@ -86,23 +86,23 @@ namespace Models
         /// <summary>
         /// 账户余额
         /// </summary>
-         public decimal amount{ get; set; }
+         public decimal? amount{ get; set; }
         /// <summary>
         /// 账户积分
         /// </summary>
-         public int point{ get; set; }
+         public int? point{ get; set; }
         /// <summary>
         /// 升级经验值
         /// </summary>
-         public int exp{ get; set; }
+         public int? exp{ get; set; }
         /// <summary>
         /// 账户状态,0正常,1待验证,2待审核,3锁定
         /// </summary>
-         public byte status{ get; set; }
+         public byte? status{ get; set; }
         /// <summary>
         /// 注册时间
         /// </summary>
-         public DateTime reg_time{ get; set; }
+         public DateTime? reg_time{ get; set; }
         /// <summary>
         /// 注册IP
         /// </summary>

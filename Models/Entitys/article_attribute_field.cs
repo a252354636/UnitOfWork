@@ -38,11 +38,11 @@ namespace Models
         /// <summary>
         /// 字段长度
         /// </summary>
-         public int data_length{ get; set; }
+         public int? data_length{ get; set; }
         /// <summary>
         /// 小数点位数
         /// </summary>
-         public byte data_place{ get; set; }
+         public byte? data_place{ get; set; }
         /// <summary>
         /// 选项列表
         /// </summary>
@@ -54,19 +54,19 @@ namespace Models
         /// <summary>
         /// 是否必填0非必填1必填
         /// </summary>
-         public byte is_required{ get; set; }
+         public byte? is_required{ get; set; }
         /// <summary>
         /// 是否密码框
         /// </summary>
-         public byte is_password{ get; set; }
+         public byte? is_password{ get; set; }
         /// <summary>
         /// 是否允许HTML
         /// </summary>
-         public byte is_html{ get; set; }
+         public byte? is_html{ get; set; }
         /// <summary>
         /// 编辑器类型0标准型1简洁型
         /// </summary>
-         public byte editor_type{ get; set; }
+         public byte? editor_type{ get; set; }
         /// <summary>
         /// 验证提示信息
         /// </summary>
@@ -82,15 +82,15 @@ namespace Models
         /// <summary>
         /// 排序数字
         /// </summary>
-         public int sort_id{ get; set; }
+         public int? sort_id{ get; set; }
         /// <summary>
         /// 系统默认
         /// </summary>
-         public byte is_sys{ get; set; }
+         public byte? is_sys{ get; set; }
         /// <summary>
         /// 状态0正常1禁用
         /// </summary>
-         public byte is_lock{ get; set; }
+         public byte? is_lock{ get; set; }
  
 
 	}
