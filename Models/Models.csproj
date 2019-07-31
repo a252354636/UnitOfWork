@@ -84,7 +84,7 @@
     <Compile Include="Entitys\user_recharge.cs" />
     <Compile Include="IBaseEntity.cs" />
     <Compile Include="Entitys\Book.cs" />
-    <Compile Include="Entitys\Users.cs" />
+    <Compile Include="Entitys\users.cs" />
     <Compile Include="Models\UserOnBookModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EFFramework
 {
-  public class BaseService : IBaseService
+  public class BaseService : IBaseService 
   {
     public UnitOfWork uw;
     public BaseService()
@@ -29,6 +29,7 @@ namespace EFFramework
     {
       return uw.GetModel<T>(filter);
     }
+ 
   }
 }
 

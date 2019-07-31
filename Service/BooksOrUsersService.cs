@@ -11,7 +11,7 @@ namespace Service
   {
     public List<TM> GetSqlQuery<TM>()
     {
-      string sql = "select b.ID bookid,b.Name BookName,u.Name UserName from books b join Users u on u.id = b.Uid  where b.id ={0}";
+      string sql = "select b.ID newsid,b.title title,u.user_name UserName from dt_channel_article_news b join dt_users u on u.user_name = b.user_name  where b.id ={0}";
       return uw.GetSqlQuery<TM>(sql, "1");
     }
   }

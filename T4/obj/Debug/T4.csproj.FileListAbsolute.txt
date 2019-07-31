@@ -1,6 +1,6 @@
 E:\code\UnitOfWork\T4\bin\Debug\T4.dll
 E:\code\UnitOfWork\T4\bin\Debug\T4.pdb
-E:\code\UnitOfWork\T4\obj\Debug\T4.csprojAssemblyReference.cache
 E:\code\UnitOfWork\T4\obj\Debug\T4.csproj.CoreCompileInputs.cache
 E:\code\UnitOfWork\T4\obj\Debug\T4.dll
 E:\code\UnitOfWork\T4\obj\Debug\T4.pdb
+E:\code\UnitOfWork\T4\obj\Debug\T4.csprojAssemblyReference.cache

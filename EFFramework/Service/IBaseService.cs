@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace EFFramework
 {
-  public  interface IBaseService
-    {
-        void Add<T>(T entity) where T :IBaseEntity;
-        void Commit();
+  public interface IBaseService
+  {
+    void Add<T>(T entity) where T : IBaseEntity;
+    void Commit();
 
-        T GetModel<T>(Expression<Func<T, bool>> filter) where T : IBaseEntity;
+    T GetModel<T>(Expression<Func<T, bool>> filter) where T : IBaseEntity;
 
-    }
+  }
 }
