@@ -22,7 +22,7 @@ namespace MvcApp.Controllers
 
     public ActionResult Index()
     {
-      Book b = new Book();
+     // Book b = new Book();
       //b.ID = 7;
       //b.Uid = 1;
       //b.Name = "天书奇谈" + DateTime.Now;
@@ -32,7 +32,7 @@ namespace MvcApp.Controllers
       //service.Add(b);
       //service.Add(u);
       //service.Commit();
-      service.Add(b);
+     
       channel_article_news u = service.GetModel<channel_article_news>(s => s.id == 13);
       //book.Name = "天天向上";
       // List<UserOnBookModel> bk = service.GetSqlQuery<UserOnBookModel>();

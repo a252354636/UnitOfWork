@@ -56,7 +56,6 @@
     <Compile Include="EntityTypeConfiguration\article_commentEntityTypeConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\article_tagsEntityTypeConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\article_tags_relationEntityTypeConfiguration.cs" />
-    <Compile Include="EntityTypeConfiguration\BookEntityTypeConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\channel_article_contentEntityTypeConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\channel_article_downEntityTypeConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\channel_article_goodsEntityTypeConfiguration.cs" />

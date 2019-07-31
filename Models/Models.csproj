@@ -83,7 +83,6 @@
     <Compile Include="Entitys\user_point_log.cs" />
     <Compile Include="Entitys\user_recharge.cs" />
     <Compile Include="IBaseEntity.cs" />
-    <Compile Include="Entitys\Book.cs" />
     <Compile Include="Entitys\users.cs" />
     <Compile Include="Models\UserOnBookModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
