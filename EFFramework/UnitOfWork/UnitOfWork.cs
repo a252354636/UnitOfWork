@@ -63,42 +63,7 @@ namespace EFFramework
     {
       return this.Repository().GetSqlQuery<TM>(sql, parameters);
     }
-    /// <summary>
-    /// 分页查询 
-    /// </summary>
-    /// <param name="pageCount">总页数</param>
-    /// <param name="pageIndex">当前页码</param>
-    /// <param name="pageSize">页容量</param>
-    /// <param name="whereLambda">条件 lambda表达式</param>
-    /// <param name="orderByExpressions">多条件排序</param>
-    /// <returns></returns>
-    public IQueryable<T> GetListByPageByOrders<T>(ref int Count, int pageIndex, int pageSize, Expression<Func<T, bool>> whereLambda, params IOrderByExpression<T>[] orderByExpressions) where T : IBaseEntity
-    {
-
-      try
-      {
-        Count = context.Set<T>().Where(whereLambda).Count();
-        var query = context.Set<T>().Where(whereLambda);
-        if (orderByExpressions == null)
-          return query;
-
-        IOrderedQueryable<T> output = null;
-
-        foreach (var orderByExpression in orderByExpressions)
-        {
-          if (output == null)
-            output = orderByExpression.ApplyOrderBy(query);
-          else
-            output = orderByExpression.ApplyThenBy(output);
-        }
-
-        return output.Skip((pageIndex - 1) * pageSize).Take(pageSize) ?? query.Skip((pageIndex - 1) * pageSize).Take(pageSize);
-      }
-      catch (Exception ex)
-      {
-        return null;
-      }
-    }
+   
     public void Dispose()
     {
       Dispose(true);
