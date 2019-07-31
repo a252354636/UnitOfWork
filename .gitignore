@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs
+/EFFramework/bin/Debug
+/MvcApp/bin
+/Service/bin/Debug
+/Service/obj/Debug
+/T4/bin/Debug
+/T4/obj/Debug
+/UnitOfWork/bin/Debug
+/UnitOfWork/obj/Debug
