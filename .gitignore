@@ -15,4 +15,5 @@
 /UnitOfWork/obj
 /Models/obj
 /Models/bin
-
+/WebApi/bin
+/WebApi/obj
