@@ -15,5 +15,10 @@
 /UnitOfWork/obj
 /Models/obj
 /Models/bin
+/packages
+/YTcms.Identity/bin
+/YTcms.Identity/obj
+/WebApi/bin
+/WebApi/obj
 /WebApi/bin
 /WebApi/obj

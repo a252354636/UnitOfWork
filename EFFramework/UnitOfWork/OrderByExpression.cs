@@ -15,8 +15,8 @@ namespace EFFramework
     public class OrderByExpression<TEntity, TOrderBy> : IOrderByExpression<TEntity>
     where TEntity : class
     {
-        private readonly Expression<Func<TEntity, TOrderBy>> _expression;
-        private readonly bool _descending;
+        private Expression<Func<TEntity, TOrderBy>> _expression;
+        private bool _descending;
 
         public OrderByExpression(Expression<Func<TEntity, TOrderBy>> expression,
             bool descending = false)

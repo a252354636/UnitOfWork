@@ -8,7 +8,7 @@ namespace EFFramework
 {
     public class QueryReporitory
     {
-        private readonly BaseDbContext uw;
+        private BaseDbContext uw;
         public QueryReporitory(BaseDbContext context)
         {
             this.uw = context;
