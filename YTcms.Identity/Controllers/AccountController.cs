@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using IdentityServer4.Services;
 using IdentityServer4.Stores;
@@ -46,10 +49,14 @@ namespace YTcms.Identity.Controllers
         /// 登录post回发处理
         /// </summary>
         [HttpPost]
-        public async Task<IActionResult> Login(string userName, string password, string returnUrl = null)
+        public async Task<HttpResponseMessage> Login(string userName, string password, string returnUrl = null)
         {
             ViewData["returnUrl"] = returnUrl;
             dt_users user = await _adminService.GetByStr(userName, password);
+            var response = new HttpResponseMessage();
+            response.Content = new StringContent("");
+            response.Content.Headers.ContentType = new MediaTypeHeaderValue("text/html");
+            response.Content.Headers.ContentType.CharSet = "utf-8";
             if (user != null)
             {
                 AuthenticationProperties props = new AuthenticationProperties
@@ -58,16 +65,15 @@ namespace YTcms.Identity.Controllers
                     ExpiresUtc = DateTimeOffset.UtcNow.Add(TimeSpan.FromDays(1))
                 };
                 await HttpContext.SignInAsync(user.Id.ToString(), user.user_name, props);
-                if (returnUrl != null)
-                {
-                    return Redirect(returnUrl);
-                }
 
-                return View();
+                HttpResponseMessage resp = new HttpResponseMessage(HttpStatusCode.Moved);
+                resp.Headers.Location = new Uri("http://localhost:5002/" + returnUrl);
+                return resp;
             }
             else
             {
-                return View();
+                    response.Content = new StringContent("无效的订单id！");
+                    return response;
             }
         }
     }
