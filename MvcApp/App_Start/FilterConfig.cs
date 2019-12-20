@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using MvcApp.AuthAttributes;
+using System.Web;
 using System.Web.Mvc;
 
 namespace MvcApp
